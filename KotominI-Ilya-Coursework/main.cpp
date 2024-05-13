@@ -112,4 +112,6 @@ void main()
     cout << "\nSum: ";
     list_element::print_list(sum);
     cout << endl;
+
+    system("pause>nul");  // NOLINT(concurrency-mt-unsafe)
 }
