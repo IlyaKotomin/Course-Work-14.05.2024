@@ -1,6 +1,9 @@
 
 # sum_two_lists Function
 
+## Task
+Make a function for calculating SUM of two integer numbers from two dynamic **Lists** (each element consists one digit of integer value).
+
 ## Overview
 
 The `sum_two_lists` function is designed to calculate the sum of two integers represented by linked lists, where each node in the list contains a single digit of the integer.
@@ -12,10 +15,10 @@ list_element* sum_two_lists(const list_element* num1, const list_element* num2);
 ```
 
 - **Input**:
-    - `num1`: Pointer to the head of the first linked list representing the first integer.
-    - `num2`: Pointer to the head of the second linked list representing the second integer.
+  - `num1`: Pointer to the head of the first linked list representing the first integer.
+  - `num2`: Pointer to the head of the second linked list representing the second integer.
 - **Output**:
-    - Returns a pointer to the head of the resulting linked list representing the sum of the two input integers.
+  - Returns a pointer to the head of the resulting linked list representing the sum of the two input integers.
 
 ## Explanation
 
